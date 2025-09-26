@@ -1,5 +1,3 @@
-
-
 # TripleTend Homeland Web Project
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -47,9 +45,9 @@ web_project_homeland/
 ## ⚙️ Especificaciones técnicas
 
 - **Breakpoints:**
-	- Desktop: 1280px
-	- Tablet: 768px
-	- Mobile: 320px
+  - Desktop: 1280px
+  - Tablet: 768px
+  - Mobile: 320px
 - **Metodología:** BEM Flat, sin anidamiento excesivo, sin frameworks.
 - **Accesibilidad:** Imágenes con `alt`, estructura semántica (`header`, `main`, `footer`, `section`).
 - **Validación:** Sin errores W3C, sin scroll horizontal, sin !important.
@@ -65,7 +63,7 @@ web_project_homeland/
 
 ## 🌐 Enlace a GitHub Pages
 
-> [Pon aquí tu enlace de despliegue si lo tienes]
+> [\[Pon aquí tu enlace de despliegue si lo tienes\]](https://sierra117sp.github.io/web_project_homeland)
 
 ---
 

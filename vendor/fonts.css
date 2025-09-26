@@ -1,1 +1,21 @@
-/* Aquí van las reglas @font-face para Inter y las fuentes del sistema como fallback */
+@font-face {
+	font-family: 'Inter';
+	src: url('../vendor/fonts/Inter-Regular.woff2') format('woff2'),
+			 url('../vendor/fonts/Inter-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../vendor/fonts/Inter-Bold.woff2') format('woff2'),
+			 url('../vendor/fonts/Inter-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+body, .header, .main, .content, .logo, .main-title, .subtitle, .content-title, .quote, .quote-author, .description, .footer {
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
