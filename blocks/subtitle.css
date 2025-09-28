@@ -9,3 +9,20 @@
   margin-right: auto;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    max-width: 95vw;
+  }
+}
+@media (max-width: 320px) {
+  .subtitle {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 18px;
+    max-width: 98vw;
+  }
+}

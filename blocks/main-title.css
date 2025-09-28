@@ -7,3 +7,20 @@
   color: #fff;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .main-title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+  }
+}

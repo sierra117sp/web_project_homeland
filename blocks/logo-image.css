@@ -4,3 +4,18 @@
   margin-bottom: 8px;
   display: block;
 }
+
+@media (max-width: 768px) {
+  .logo-image {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 320px) {
+  .logo-image {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 4px;
+  }
+}

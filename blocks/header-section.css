@@ -7,3 +7,14 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+  .header-section {
+    padding: 40px 0 32px 0;
+  }
+}
+@media (max-width: 320px) {
+  .header-section {
+    padding: 24px 0 16px 0;
+  }
+}
