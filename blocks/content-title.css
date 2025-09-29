@@ -7,3 +7,23 @@
   color: #fff;
   text-align: left;
 }
+
+/* ===== RESPONSIVE BREAKPOINTS ===== */
+@media (max-width: 768px) {
+  .content-title {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1.2px;
+    margin-bottom: 18px;
+    text-align: left;
+  }
+}
+@media (max-width: 320px) {
+  .content-title {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.8px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}

@@ -1,3 +1,5 @@
+
+/* ===== SUBTITLE BLOCK ===== */
 .subtitle {
   font-size: 30px;
   font-weight: 400;
@@ -10,6 +12,7 @@
   text-align: center;
 }
 
+/* ===== RESPONSIVE BREAKPOINTS ===== */
 @media (max-width: 768px) {
   .subtitle {
     font-size: 18px;

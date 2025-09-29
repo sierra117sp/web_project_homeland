@@ -4,6 +4,20 @@
   padding-bottom: 48px;
 }
 
+/* ===== RESPONSIVE BREAKPOINTS ===== */
+@media (max-width: 768px) {
+  .content-section {
+    max-width: 98vw;
+    padding-bottom: 32px;
+  }
+}
+@media (max-width: 320px) {
+  .content-section {
+    max-width: 99vw;
+    padding-bottom: 16px;
+  }
+}
+
 
 
 

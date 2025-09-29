@@ -1,3 +1,5 @@
+
+/* ===== HEADER-SECTION BLOCK ===== */
 .header-section {
   display: flex;
   flex-direction: column;
@@ -8,6 +10,7 @@
   box-sizing: border-box;
 }
 
+/* ===== RESPONSIVE BREAKPOINTS ===== */
 @media (max-width: 768px) {
   .header-section {
     padding: 40px 0 32px 0;

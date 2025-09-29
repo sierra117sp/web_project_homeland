@@ -1,3 +1,5 @@
+
+/* ===== LOGO BLOCK ===== */
 .logo {
   font-size: 14px;
   font-weight: 700;
@@ -8,6 +10,7 @@
   text-align: center;
 }
 
+/* ===== RESPONSIVE BREAKPOINTS ===== */
 @media (max-width: 768px) {
   .logo {
     margin-bottom: 32px;

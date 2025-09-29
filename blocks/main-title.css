@@ -1,3 +1,5 @@
+
+/* ===== MAIN-TITLE BLOCK ===== */
 .main-title {
   font-size: 96px;
   font-weight: 900;
@@ -8,6 +10,7 @@
   text-align: center;
 }
 
+/* ===== RESPONSIVE BREAKPOINTS ===== */
 @media (max-width: 768px) {
   .main-title {
     font-size: 40px;

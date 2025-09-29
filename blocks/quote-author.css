@@ -9,3 +9,21 @@
   margin-left: auto;
   margin-right: 0;
 }
+
+/* ===== RESPONSIVE BREAKPOINTS ===== */
+@media (max-width: 768px) {
+  .quote-author {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    max-width: 95vw;
+  }
+}
+@media (max-width: 320px) {
+  .quote-author {
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 6px;
+    max-width: 98vw;
+  }
+}
