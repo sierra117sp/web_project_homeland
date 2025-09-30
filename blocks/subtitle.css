@@ -1,31 +1,30 @@
-
 /* ===== SUBTITLE BLOCK ===== */
 .subtitle {
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  margin-bottom: 48px;
-  color: #fff;
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	margin-bottom: 48px;
+	color: #fff;
+	max-width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
-/* ===== RESPONSIVE BREAKPOINTS ===== */
+/* ===== RESPONSIVE BREAKPOINTS SUBTITLE ===== */
 @media (max-width: 768px) {
-  .subtitle {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 32px;
-    max-width: 95vw;
-  }
+	.subtitle {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 32px;
+		max-width: 95vw;
+	}
 }
 @media (max-width: 320px) {
-  .subtitle {
-    font-size: 12px;
-    line-height: 16px;
-    margin-bottom: 18px;
-    max-width: 98vw;
-  }
+	.subtitle {
+		font-size: 12px;
+		line-height: 16px;
+		margin-bottom: 18px;
+		max-width: 98vw;
+	}
 }
