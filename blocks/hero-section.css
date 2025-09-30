@@ -10,14 +10,7 @@
 }
 
 /* ===== HERO-IMAGE BLOCK ===== */
-.hero-image {
-  width: 100%;
-  max-width: 984px;
-  height: auto;
-  display: block;
-  margin: 0 auto 48px auto;
-  border-radius: 8px;
-}
+/* .hero-image styles deben estar en hero-image.css */
 
 /* ===== RESPONSIVE BREAKPOINTS HERO-IMAGE ===== */
 @media (max-width: 768px) {
@@ -27,8 +20,5 @@
   }
 }
 @media (max-width: 320px) {
-  .hero-image {
-    margin-bottom: 16px;
-    border-radius: 4px;
-  }
+  /* .hero-image styles deben estar en hero-image.css */
 }
