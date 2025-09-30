@@ -3,3 +3,31 @@
   margin: 0 auto;
   padding: 0;
 }
+
+/* ===== RESPONSIVE BREAKPOINTS ===== */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100vw;
+    padding: 0 12px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 100vw;
+    padding: 0 6px;
+  }
+}
+
+/* ===== RESPONSIVE BREAKPOINTS ===== */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100vw;
+    padding: 0 12px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 100vw;
+    padding: 0 6px;
+  }
+}

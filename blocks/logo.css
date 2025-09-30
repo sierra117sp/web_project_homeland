@@ -10,6 +10,30 @@
   text-align: center;
 }
 
+/* ===== LOGO-IMAGE BLOCK ===== */
+.logo-image {
+  width: 144px;
+  height: 144px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* ===== RESPONSIVE BREAKPOINTS LOGO-IMAGE ===== */
+@media (max-width: 768px) {
+  .logo-image {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 320px) {
+  .logo-image {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 4px;
+  }
+}
+
 /* ===== RESPONSIVE BREAKPOINTS ===== */
 @media (max-width: 768px) {
   .logo {
