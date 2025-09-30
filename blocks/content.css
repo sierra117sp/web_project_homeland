@@ -26,34 +26,8 @@
   text-align: left;
 }
 
-/* ===== QUOTE BLOCK ===== */
-.quote {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 34px;
-  margin-bottom: 10px;
-  color: #fff;
-  max-width: 720px;
-  text-align: left;
-}
-
-
 /* ===== RESPONSIVE BREAKPOINTS QUOTE-AUTHOR ===== */
 @media (max-width: 768px) {
-  /* .quote-author styles deben estar en quote-author.css */
-}
-/* ===== QUOTE-AUTHOR BLOCK ===== */
-/* .quote-author styles deben estar en quote-author.css */
-
-/* ===== DESCRIPTION BLOCK ===== */
-.description {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  color: #fff;
-  max-width: 720px;
-  margin-bottom: 0;
-  text-align: left;
 }
 
 /* ===== RESPONSIVE BREAKPOINTS ===== */
@@ -69,9 +43,7 @@
     margin-bottom: 18px;
     text-align: left;
   }
-  /* .quote styles deben estar en quote.css */
-  /* .quote-author styles deben estar en quote-author.css */
-  /* .description styles deben estar en description.css */
+  /* ...existing code... */
 }
 @media (max-width: 320px) {
   .content-section {

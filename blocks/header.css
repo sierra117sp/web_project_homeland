@@ -28,18 +28,8 @@
 /* ===== MAIN-TITLE BLOCK ===== */
 /* .main-title styles deben estar en main.css */
 
-/* ===== SUBTITLE BLOCK ===== */
-.subtitle {
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  margin-bottom: 48px;
-  color: #fff;
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+/* ...existing code... */
+/* ...existing code... */
 
 /* ===== RESPONSIVE BREAKPOINTS ===== */
 @media (max-width: 768px) {
@@ -58,7 +48,7 @@
     letter-spacing: -2px;
     margin-bottom: 16px;
   }
-  /* .subtitle styles deben estar en main.css */
+  /* ...existing code... */
 }
 @media (max-width: 320px) {
   .header-section {
@@ -72,10 +62,5 @@
     letter-spacing: -1px;
     margin-bottom: 10px;
   }
-  .subtitle {
-    font-size: 12px;
-    line-height: 16px;
-    margin-bottom: 18px;
-    max-width: 98vw;
-  }
+  /* ...existing code... */
 }
